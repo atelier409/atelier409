@@ -1,0 +1,23 @@
+.blob {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    z-index: -1;
+    transform-origin: 50% 50%;
+}
+
+/*Smallest device*/
+@media (min-width: 100px) and (max-width: 575px) {
+
+    #img-blob {
+        height: 300px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+    #img-blob {
+        height: 400px;
+    }
+}
