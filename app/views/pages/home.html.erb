@@ -1,15 +1,13 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <%= link_to "#", class: "navbar-brand" do %>
-    <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" %>
+    <%= image_tag "https://res.cloudinary.com/df0stqosw/image/upload/v1623479024/Atelier%20409/logos/409-red_fecixt.png" %>
     <% end %>
 </div>
 
 <div class="banner">
-  <div class="container">
     <h1>Atelier de conception-réalisation de sites internet</h1>
     <p>A l'Atelier 409, vos idées prennent vie. Laissez-nous vous guider dans la réalisation de votre site internet</p>
     <a class="btn btn-flat" href="#">DEVIS GRATUIT</a>
-  </div>
 </div>
 
 <h2 class="section-title">Nos services</h2>
@@ -36,22 +34,21 @@
   <div class="card">DIV</div>
 </div>
 
+<div class="contact">
+  <h2 class="section-title">Contact</h2>
+  <div class="contact-section row">
+      <div class="contact-details col-sm-12 col-md-3">
+          <p class="contact-text">contact@atelier409.com</p>
+          <p class="contact-text">+33 6 42 43 19 75</p>
+          <p class="contact-text">Région de Marseille, France</p>
+      </div>
+      <div class="col-sm-12 col-md-9">
+          <%= render 'contacts/new' %>
+      </div>
+  </div>
+</div>
 
-<div class="contact subbanner light-text" id="contact">
-  <div class="container">
-    <h2 class="section-title">Contact</h2>
-    <div class="contact-section row">
-        <div class="contact-details col-sm-12 col-md-3">
-            <p>contact@atelier409.com</p>
-            <p>+33 6 42 43 19 75</p>
-            <p>Marseille region, France</p>
-        </div>
-        <div class="col-sm-12 col-md-9">
-            <%= render 'contacts/new' %>
-        </div>
-    </div>
-</div>
-</div>
+
 <div class="footer">
   <div class="footer-links">
     <a href="#"><i class="fab fa-github"></i></a>
@@ -62,3 +59,4 @@
     Site propulsé par le collectif  de <strong>l'Atelier 409</strong>
   </div>
 </div>
+

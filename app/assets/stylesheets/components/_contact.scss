@@ -1,0 +1,82 @@
+/*Media Queries*/
+
+/*Smallest device*/
+@media (min-width: 100px) and (max-width: 575px) {
+    .contact {
+        padding: 16px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .contact {
+        padding: 16px 64px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 1200px) {
+    .contact {
+        padding: 16px 128px;
+    }
+}
+
+.contact-section {
+    margin-top: 40px;
+    color: white;
+}
+
+.contact-details {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact-details>a {
+    text-decoration: none;
+}
+
+.contact-text {
+    margin-bottom: 0px;
+}
+
+.form-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#contact_name {
+    width: 75%
+}
+
+#contact_email {
+    width: 75%
+}
+
+#contact_message {
+    width: 75%;
+    height: 150px;
+}
+
+@media (min-width: 100px) and (max-width: 768px) {
+    .contact-details {
+        margin-top: 30px;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (min-width: 769px) {
+    .contact-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-details {
+        margin: 0;
+        text-align: left;
+    }
+}

@@ -11,6 +11,16 @@
   color: white;
 }
 
+button,
+input[type="submit"],
+input[type="reset"] {
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
 .btn-flat-small {
   font-size: 12px;
   padding: 4px 6px;

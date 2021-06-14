@@ -4,10 +4,37 @@ body {
   background-color: $blue-a;
 }
 
+/*Media Queries*/
+
+/*Smallest device*/
+@media (min-width: 100px) and (max-width: 575px) {
+    .contact,
+    .banner {
+        padding: 16px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .contact,
+    .banner {
+        padding: 16px 64px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 1200px) {
+    .contact,
+    .banner {
+        padding: 16px 128px;
+    }
+}
+
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .banner h1 {
@@ -28,3 +55,5 @@ body {
 .contact {
   color: $red-vif;
 }
+
+
