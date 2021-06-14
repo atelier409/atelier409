@@ -1,0 +1,57 @@
+.samba {
+    background-image: url('https://res.cloudinary.com/df0stqosw/image/upload/v1623072653/Portfolio/Projects/Samba/samba-1_fm93ou.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.samba:hover {
+    background-image: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)),
+        url('https://res.cloudinary.com/df0stqosw/image/upload/v1623072653/Portfolio/Projects/Samba/samba-1_fm93ou.jpg');
+
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s ease-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 250px;
+}
+
+.project-card:hover {
+    transform: translateY(3px);
+    cursor: pointer;
+}
+
+.project-card:hover .project-card-content {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.project-card .project-card-content {
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateY(9px);
+    transition: 0.5s;
+    text-align: center;
+}
+
+.project-card .project-card-content h3 {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 22px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.project-card .project-card-content p {
+    font-size: 14px;
+    margin: 8px 0px 16px 0px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.project-card .project-card-content a {
+    text-decoration: none;
+}
