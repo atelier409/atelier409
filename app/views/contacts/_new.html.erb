@@ -9,6 +9,10 @@
       <%= f.text_field :name, required: true %>
     </div>
     <div class="form-field">
+      <%= f.label :societe, 'Votre societe:'%> <br>
+      <%= f.text_field :societe, as: :text %>
+    </div>
+    <div class="form-field">
       <%= f.label :email, 'Email:' %> <br>
       <%= f.text_field :email, required: true %>
     </div>

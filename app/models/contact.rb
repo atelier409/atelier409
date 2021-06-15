@@ -1,5 +1,6 @@
 class Contact < ApplicationRecord
 attribute :name, validate: true
+attribute :societe
   attribute :email, validate: true
   attribute :message
   def headers
