@@ -10,6 +10,30 @@
 
 }
 
+.cabbage-leaf {
+    background-image: url('https://res.cloudinary.com/df0stqosw/image/upload/v1623755085/Atelier%20409/Projets/The%20Cabbage%20Leaf/cabbage-leaf-02_zecbcb.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.cabbage-leaf:hover {
+    background-image: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)),
+        url('https://res.cloudinary.com/df0stqosw/image/upload/v1623755085/Atelier%20409/Projets/The%20Cabbage%20Leaf/cabbage-leaf-02_zecbcb.jpg');
+
+}
+
+.fil-mecanique {
+    background-image: url('https://res.cloudinary.com/df0stqosw/image/upload/v1623757243/Atelier%20409/Projets/fil-mecanique/fil-mecanique-01_rnfufs.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.fil-mecanique:hover {
+    background-image: linear-gradient(rgba(31, 40, 51, 0.8), rgba(31, 40, 51, 0.8)),
+        url('https://res.cloudinary.com/df0stqosw/image/upload/v1623757243/Atelier%20409/Projets/fil-mecanique/fil-mecanique-01_rnfufs.jpg');
+
+}
+
 .project-card {
     display: flex;
     align-items: center;
