@@ -1,0 +1,27 @@
+
+.card-title-orga {
+  text-align: center;
+  color: $red-vif;
+  font-family: 'Train One', cursive;
+}
+
+.card-text-orga{
+  text-align: center;
+  color: white;
+}
+
+.card-img-orga {
+  width: 30%;
+  border-radius: 20%;
+  margin-bottom: 20px;
+}
+
+.image-organisation {
+  text-align: center;
+}
+
+.organisation {
+  margin: 0px 10px 0px 10px;
+}
+
+
