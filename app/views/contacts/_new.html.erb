@@ -1,4 +1,3 @@
-
 <div class="contact-form">
   <%= form_for @contact do |f| %>
     <% if flash[:error].present? %>
@@ -7,10 +6,6 @@
     <div class="form-field">
       <%= f.label :name, 'Nom:'%> <br>
       <%= f.text_field :name, required: true %>
-    </div>
-    <div class="form-field">
-      <%= f.label :societe, 'Société:'%> <br>
-      <%= f.text_field :societe, as: :text %>
     </div>
     <div class="form-field">
       <%= f.label :email, 'Email:' %> <br>

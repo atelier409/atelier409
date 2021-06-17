@@ -1,13 +1,13 @@
-class Contact < ApplicationRecord
-attribute :name, validate: true
-  attribute :societe
+class Contact < MailForm::Base
+  attribute :name, validate: true
   attribute :email, validate: true
   attribute :message
+  
   def headers
     {
       #this is the subject for the email generated, it can be anything you want
-      subject: "Contact from Atelier409",
-      to: 'leveque.tanguy@outlook.fr',
+      subject: "My Contact Form",
+      to: 'contact.atelier409@gmail.com',
       from: %("#{name}" <#{email}>)
       #the from will display the name entered by the user followed by the email
     }
