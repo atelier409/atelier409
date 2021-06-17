@@ -1,40 +1,22 @@
-
-// #chronologie {
-//   border-top: 2px solid white;
-//   width : 85%;
-//   position: absolute;
-// }
-
 .card-title-services {
   text-align: center;
   color: $red-vif;
-  font-family: 'Train One', cursive;
-
+  font-size: 18px;
 }
 
 .card-text-services {
   text-align: center;
   color: white;
+  margin-bottom: 0;
 }
 
 .card-img-services {
-  width: 30%;
-  border-radius: 20%;
+  height: 130px;
   margin-bottom: 20px;
-  color: white;
 }
 
 .image-services {
   text-align: center;
-}
-
-.services {
-  margin: 0px 10px 0px 10px;
-}
-
-.card-img-orga {
-width:20%;
-height: 100px;
 }
 
 .card-grid-services {
