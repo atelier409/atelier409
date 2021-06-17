@@ -1,77 +1,21 @@
-
-// #chronologie {
-//   border-top: 2px solid white;
-//   width : 85%;
-//   position: absolute;
-// }
-
 .card-title-services {
   text-align: center;
   color: $red-vif;
-  font-family: 'Train One', cursive;
-
+  font-size: 18px;
 }
 
 .card-text-services {
   text-align: center;
   color: white;
+  margin-bottom: 0;
 }
 
 .card-img-services {
-  width: 30%;
-  border-radius: 20%;
+  height: 130px;
   margin-bottom: 20px;
-  color: white;
 }
 
 .image-services {
   text-align: center;
 }
 
-.services {
-  margin: 0px 10px 0px 10px;
-}
-
-.card-img-orga {
-width:20%;
-height: 100px;
-}
-
-.card-grid-services {
-  display: grid;
-  grid-gap: 16px;
-  margin-bottom: 75px;
-}
-
-.card-title-orga{
-font-size: 1rem;
-margin-bottom: 10px;
-}
-/*Media Queries*/
-
-/*Smallest device*/
-@media (min-width: 100px) and (max-width: 575px) {
-  .card-grid-services {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      padding: 16px;
-      .card-title-orga {
-        width: 20%;
-    }
-  }
-}
-
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-  .card-grid-services {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      padding: 16px 64px;
-  }
-}
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 1200px) {
-  .card-grid-services {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      padding: 16px 128px;
-  }
-}
