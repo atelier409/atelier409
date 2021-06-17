@@ -1,7 +1,6 @@
 .card-grid {
     display: grid;
     grid-gap: 16px;
-    margin-bottom: 75px;
 }
 
 /*Media Queries*/
@@ -11,6 +10,7 @@
     .card-grid {
         grid-template-columns: 1fr;
         padding: 16px;
+        margin-bottom: 30px;
     }
 }
 
@@ -19,6 +19,7 @@
     .card-grid {
         grid-template-columns: 1fr 1fr;
         padding: 16px 64px;
+        margin-bottom: 50px;
     }
 }
 
@@ -27,5 +28,6 @@
     .card-grid {
         grid-template-columns: 1fr 1fr 1fr;
         padding: 16px 128px;
+        margin-bottom: 75px;
     }
 }
