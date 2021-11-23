@@ -7,7 +7,7 @@ class Contact < MailForm::Base
     {
       #this is the subject for the email generated, it can be anything you want
       subject: "My Contact Form",
-      to: 'contact.atelier409@gmail.com',
+      to: 'leveque.tanguy1105@gmail.com',
       from: %("#{name}" <#{email}>)
       #the from will display the name entered by the user followed by the email
     }
